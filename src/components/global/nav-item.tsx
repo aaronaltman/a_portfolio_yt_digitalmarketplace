@@ -1,5 +1,6 @@
 import React from "react";
 import { MENU_ITEMS } from "@/lib/constants";
+import Cart from "../e-commerce/cart";
 
 export default function NavItem() {
   return (
@@ -11,6 +12,7 @@ export default function NavItem() {
           </a>
         </li>
       ))}
+      <Cart />
     </>
   );
 }
