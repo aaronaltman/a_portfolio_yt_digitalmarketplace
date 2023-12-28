@@ -60,3 +60,38 @@ export const MENU_ITEMS = [
     path: "/settings",
   },
 ];
+
+export const PRODUCTS = [
+  {
+    id: "1",
+    name: "Dashboard UI Kit",
+    price: 49,
+    description:
+      "A beautiful cross-platform UI kit for designing dashboards and admin interfaces.",
+    image: "/images/dashboard-ui-kit.png",
+  },
+  {
+    id: "2",
+    name: "Simple Icons",
+    price: 29,
+    description:
+      "Get access to over 500 official SVG icons featured in the Simple Icons project.",
+    image: "/images/simple-icons.png",
+  },
+  {
+    id: "3",
+    name: "Custom Icon Design",
+    price: 99,
+    description:
+      "Order a custom set of pixel-perfect icons tailored to your needs.",
+    image: "/images/custom-icon-design.png",
+  },
+  {
+    id: "4",
+    name: "Custom Illustrations",
+    price: 99,
+    description:
+      "Order a custom set of beautiful illustrations tailored to your needs.",
+    image: "/images/custom-illustrations.png",
+  },
+];

@@ -1,9 +1,5 @@
-import { Button } from "@/components/ui/button";
-import Link from "next/link";
-import { EnvelopeOpenIcon } from "@radix-ui/react-icons";
-import { perks } from "@/lib/constants";
 import Perks from "@/components/home/perks";
-import PerksAI from "@/components/home/perks-ai";
+import ProductReel from "@/components/e-commerce/product-reel";
 
 export default function Home() {
   return (
@@ -15,6 +11,7 @@ export default function Home() {
         Welcome to Digital Big Boss Files and More...
       </p>
       <Perks />
+      <ProductReel />
     </main>
   );
 }
