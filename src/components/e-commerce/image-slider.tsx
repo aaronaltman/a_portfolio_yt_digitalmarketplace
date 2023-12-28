@@ -27,7 +27,7 @@ export default function ImageSlider() {
         }}
         navigation={true}
         modules={[Pagination, Navigation]}
-        className="h-[500px] w-[300px]"
+        className="h-screen"
       >
         {PRODUCTS.map((product) => (
           <SwiperSlide key={product.id}>
