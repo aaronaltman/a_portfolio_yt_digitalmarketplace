@@ -32,15 +32,6 @@ export const perks = [
     description: "Enjoy exclusive discounts and deals on premium assets.",
     points: 100,
   },
-  {
-    id: "5",
-    title: "Learning Resources",
-    icon: "📚",
-    color: "#581845",
-    description:
-      "Access to tutorials, guides, and articles to make the most of your digital assets.",
-    points: 50,
-  },
 ];
 
 export const MENU_ITEMS = [

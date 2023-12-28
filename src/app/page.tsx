@@ -14,14 +14,6 @@ export default function Home() {
       <p className="px-6 text-xl leading-[2rem] text-center uppercase mt-10">
         Welcome to Digital Big Boss Files and More...
       </p>
-      <div className="">
-        <Button>
-          <EnvelopeOpenIcon className="mr-2 h-4 w-4" /> Browse Trending
-        </Button>
-        <Button>
-          <EnvelopeOpenIcon className="mr-2 h-4 w-4" /> Login with Email
-        </Button>
-      </div>
       <Perks />
     </main>
   );

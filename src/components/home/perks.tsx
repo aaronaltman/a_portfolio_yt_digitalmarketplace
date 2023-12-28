@@ -3,7 +3,7 @@ import { perks } from "@/lib/constants";
 
 export default function Perks() {
   return (
-    <section className="flex flex-wrap gap-10 mt-10 mb-10">
+    <section className="flex flex-wrap gap-x-5 gap-y-10 mt-10 mb-10">
       {perks.map((perk) => (
         <div key={perk.id} className="w-full sm:w-1/3 mx-auto">
           <p className="flex justify-center items-center">{perk.icon}</p>
