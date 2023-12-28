@@ -42,3 +42,30 @@ export const perks = [
     points: 50,
   },
 ];
+
+export const MENU_ITEMS = [
+  {
+    id: "1",
+    title: "Home",
+    icon: "🏠",
+    path: "/",
+  },
+  {
+    id: "2",
+    title: "UI Kits",
+    icon: "🎁",
+    path: "/ui-kits",
+  },
+  {
+    id: "3",
+    title: "Icons",
+    icon: "👤",
+    path: "/icons",
+  },
+  {
+    id: "4",
+    title: "Settings",
+    icon: "⚙️",
+    path: "/settings",
+  },
+];
