@@ -1,6 +1,7 @@
 import Perks from "@/components/home/perks";
 import ProductReel from "@/components/e-commerce/product-reel";
 import ImageSlider from "@/components/e-commerce/image-slider";
+import ProductListing from "@/components/e-commerce/product-listing";
 
 export default function Home() {
   return (
@@ -13,7 +14,7 @@ export default function Home() {
       </p>
       <Perks />
       <ProductReel />
-      <ImageSlider />
+      <ProductListing />
     </main>
   );
 }
